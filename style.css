@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+}
+.hero-section{
+    width: 100%;
+    height: 100vh;
+    background-image: url(img/gradient\ bg.jpg);
+    padding: 0 100px;
+}
+.hero-section header{
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-section header ul li{
+    list-style: none;
+}
+.hero-section header ul li a{
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: 600;
+    list-style: none;
+    font-size: 20px;
+}
+.hero-section header ul li .cmn-a{
+    
+    background: linear-gradient(to right, #8b8b8b 50%, #40c9ff 50%, #e81cff);
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition: 0.5s ease-out;
+}
+.hero-section header ul li a:hover{
+    background-position: -100%;
+}
+.hero-section header ul li .enroll-btn{
+    padding: 8px 6px;
+    border-radius: 5px;
+    background-color: #2a9d8f;
+    color: white;
+    transition: 0.5s;
+}
+
+.hero-section header ul li .enroll-btn:hover{
+    background-color: #1cdbc5;
+}
+
+
+.hero-section main{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+}
+.hero-section main .hero-left-sec{
+    width: 50%;
+    height: 100%;
+    padding-top: 50px;
+}
+.hero-section main .hero-left-sec h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: #fff;
+}
+.hero-section main .hero-left-sec h1 span{
+    color: #222;
+    transition: 0.2s;
+    cursor: pointer;
+}
+.hero-section main .hero-left-sec h1:hover span:nth-child(1){
+    letter-spacing: 2px;
+}
+.hero-section main .hero-left-sec h1:hover span{
+    color: #ffff;
+    text-shadow: 0 0 10px #fff,
+                0 0 20px #fff,
+                0 0 40px #fff,
+                0 0 80px #fff,
+                0 0 120px #fff,
+                0 0 160px #fff;
+}
+.hero-section main .hero-left-sec p{
+    margin-top: 50px;
+    color: #e2e0e0;
+}
+.hero-section main .hero-left-sec i{
+    margin-top: 25px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    font-size: 20px;
+    color: #f1faee;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+.hero-section main .hero-left-sec i:hover{
+    background: linear-gradient( #40c9ff , #e81cff );
+    color: #000;
+}
+.hero-section main .hero-right-sec{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+.hero-section main .hero-right-sec img{
+    width: 700px;
+}
+
+
+.hero-section main .hero-left-sec .det-btn{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    height: 16vh;
+}
+.hero-section main .hero-left-sec .det-btn a{
+    padding: 10px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #f3efef;
+}
+.hero-section main .hero-left-sec .det-btn a:hover{
+    background: rgba(97, 97, 97, 0.1);
+}
